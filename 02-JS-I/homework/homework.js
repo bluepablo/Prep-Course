@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevastring = 'no entiendo nada ejejej';
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1;
 
 // Crea una variable booleana:
-const megustaelcafe = true;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = (10 - 5) === 5;
@@ -16,7 +16,7 @@ const nuevaResta = (10 - 5) === 5;
 const nuevaMultiplicacion = (10 * 4) === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
   return str;
-  
+
 }
 
 function suma(x, y) {
@@ -61,18 +61,22 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === y);
-  return true;
+  if (x === y){
+  return true
 } else {
-  return false;
-  
+  return false
+} 
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length;
+  if (str1.length===str2.length){
+    return true;
+  } else {
+    return false; 
+  }
 }
 
 function menosQueNoventa(num) {
@@ -83,6 +87,7 @@ function menosQueNoventa(num) {
     return true;
   } else {
     return false;
+  }   
 }
 
 function mayorQueCincuenta(num) {
@@ -103,20 +108,21 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if( num % 2 === 0) {
-    return true;
+    return true
   } else {
-    return false;
+    return false
+  }  
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 1) {
-    return true;
+  if(num % 2 === 1){
+    return true
   } else {
-    return false;
-  
+    return false
+  }
 }
 
 function elevarAlCuadrado(num) {
